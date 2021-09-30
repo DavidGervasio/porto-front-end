@@ -1,0 +1,55 @@
+form#formulario {
+  width: 100%;
+  max-width: 580px;
+  margin: 30px auto 0;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+form#formulario input {
+  margin-bottom: 10px;
+}
+
+form#formulario input[type="text"] {
+  height: 38px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+form#formulario select[type="select"] {
+  height: 38px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 0 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+form#formulario button {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 0;
+  background: #8eb5ed;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form#formulario .dataHora {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form#formulario .dataHora  a{
+  color: #6d718c;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 10px;
+}

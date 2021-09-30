@@ -1,0 +1,123 @@
+/*corpo da pagina*/
+#pagina-movimentacoes {
+  background: #f4f7fd;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*corpo da lista-movimentacoes
+*/
+#lista-movimentacoes {
+  height: 2000px;
+  width: 1100px;
+  background: #ffffff;
+  border: 0px solid #ceccda;
+  position: relative;
+  top: 20px;
+ 
+}
+
+#lista-movimentacoes ul {
+  height: 100%;
+  width: 100%;
+  display: block;
+  flex-direction: row;
+}
+/*cabeçalho que contem o botão de adicionar*/
+#lista-movimentacoes ul #cabecalho {
+  height: 70px;
+  max-width: 100%;
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px 24px 20px 24px;
+}
+/*botão adicionar*/
+#lista-movimentacoes ul #cabecalho .add {
+  width: 170px;
+  height: 30px;
+
+  margin-left: 50px;
+  border-radius: 2px;
+  border: 2px solid #8eb5ed;
+  background: #8eb5ed;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#lista-movimentacoes ul li {
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+}
+/*botão editar*/
+#lista-movimentacoes .edita {
+  width: 170px;
+  height: 30px;
+
+  margin-left: 20px;
+  border-radius: 2px;
+  border: 2px solid #8eb5ed;
+  background: #8eb5ed;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+/*botão deletar*/
+#lista-movimentacoes .deletar {
+  width: 170px;
+
+  border-radius: 2px;
+  border: 1px solid #8eb5ed;
+  background: #ffff;
+  color: #8eb5ed;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*
+grid
+*/
+.bloco {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 24px 24px 24px 24px;
+}
+
+/*
+Titulo do atributo
+*/
+.tipo-do-atributo {
+  color: #acb1cd;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.atributo {
+  color: #6d718c;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 10px;
+}
+/*espaço de divisão*/
+.space {
+  height: 10px;
+  background: #f4f7fd;
+}

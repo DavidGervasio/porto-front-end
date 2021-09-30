@@ -1,0 +1,144 @@
+/*corpo da pagina*/
+#pagina-relatorios {
+  background: #f4f7fd;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*corpo da lista-relatorios
+*/
+#lista-relatorios {
+  height: 2000px;
+  width: 1100px;
+  background: #ffffff;
+  border: 0px solid #ceccda;
+  position: relative;
+  top: 30px;
+}
+
+#lista-relatorios ul {
+  height: 100%;
+  width: 100%;
+  display: block;
+  flex-direction: row;
+}
+/*cabeçalho que contem o botão de adicionar*/
+#lista-relatorios ul #cabecalho {
+  height: 70px;
+  max-width: 100%;
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 24px 24px 24px 24px;
+}
+
+/*cabeçalho que contem o botão de adicionar*/
+#lista-relatorios ul #cabecalho-de-busca {
+  height: 70px;
+  max-width: 100%;
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  padding: 20px 24px 24px 24px;
+}
+
+#lista-relatorios ul li {
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+}
+
+#lista-relatorios ul #cabecalho-de-busca .buscar {
+  width: 170px;
+
+  border-radius: 2px;
+  border: 2px solid #8eb5ed;
+  background: #8eb5ed;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*
+grid
+*/
+.bloco-relatorio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 22px 24px 28px 24px;
+}
+
+/*
+Titulo do atributo
+*/
+.tipo-do-atributo {
+  color: #acb1cd;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.atributo {
+  color: #6d718c;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 10px;
+}
+/*espaço de divisão*/
+.space {
+  height: 10px;
+  background: #f4f7fd;
+}
+.box {
+  height: 10px;
+  width: 170px;
+}
+
+input[type="text-para-busca"] {
+  width: 170px;
+  height: 38px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+select[type="select-para-busca"] {
+  width: 170px;
+  height: 38px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+/*cabeçalho que contem o botão de adicionar*/
+#lista-relatorios ul .soma {
+  height: 70px;
+  max-width: 100%;
+  background: #ffffff;
+  border-bottom: 0px solid #ceccda;
+  display: grid;
+  grid-template-columns:  4fr 1fr 1fr;
+  padding: 24px 24px 24px 24px;
+}
+
+#lista-relatorios ul .soma a {
+  color: #6d718c;
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+  padding-right: 16px;
+  position: relative;
+}
+
+
+
